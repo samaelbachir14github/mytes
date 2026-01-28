@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header>
+    <h2>🏫 Système de Gestion de l’École</h2>
+</header>
+
+<nav>
+    <a href="/dashboard">Dashboard</a>
+    <a href="/direction">Direction</a>
+    <a href="/secretariat">Secrétariat</a>
+    <a href="/police">Police</a>
+    <a href="/personnel">Personnel</a>
+    <a href="/adjudant">Adjudant</a>
+    <a href="/fanfare">Fanfare</a>
+    <a href="/surveillance">Surveillance</a>
+    <a href="/bibliotheque">Bibliothèque</a>
+    <a href="/formation">Formation</a>
+    <a href="/infirmerie">Infirmerie</a>
+    <a href="/informatique">Informatique</a>
+    <a href="/statistiques">Statistiques</a>
+</nav>
+
+<main>
+    {% block content %}{% endblock %}
+</main>
+
+<footer>
+    <p>© 2026 –ECOLE NATIONALE DE POLICE ET DE LA FORMATION PERMANENTE - ENP/FP</p>
+</footer>
+
+</body>
+</html>
